@@ -1,5 +1,3 @@
-package com.example.mykitchen;
-
 import androidx.annotation.NonNull;
 
 import java.io.FileOutputStream;
