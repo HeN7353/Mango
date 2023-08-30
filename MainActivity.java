@@ -1,5 +1,3 @@
-package com.example.mykitchen;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -64,9 +62,6 @@ public class MainActivity extends AppCompatActivity {
         registerReceiver(onComplete, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
     }
 }
-
-        // Дальше идут способы возможных решений, их тоже можно использовать, какое удобнее смотри сам, хотя делают они тоже самое...
-
 
 /*public static String getInstalledVersion(Context context) {
         try {
